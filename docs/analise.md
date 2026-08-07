@@ -33,6 +33,18 @@ Doadores de alimentos excedentes, ONGs e cozinhas comunitárias não conseguem c
 
 ## Regras de negócio
 
+## Conflitos de prioridade
+| Campo | Conteúdo |
+|---|---|
+| Fala 1 | "Eu quero cadastrar uma doação em poucos segundos, sem preencher um formulário grande." (doador) |
+| Fala 2 | "Eu preciso de rastreabilidade mínima para saber o que foi doado e se isso pode circular com segurança." (vigilância sanitária) |
+| Eixo do trade-off | Quantidade de campos obrigatórios no cadastro da doação. |
+| O que cada lado perde | Se o formulário crescer, o doador perde rapidez e pode desistir de publicar; se o formulário encolher demais, a vigilância perde rastreabilidade e aumenta o risco sanitário. |
+| Critério que decide | Na iteração 1, só são obrigatórios tipo, quantidade e validade; observações, foto e detalhes adicionais ficam opcionais e não bloqueiam a publicação. |
+| Saída usada | decidir |
+| Data e medição até lá, se adiar | Não se aplica. |
+
+
 ## Histórias de usuário
 | # | História (Como… quero… para…) | INVEST: o que falha |
 |---|---|---|
@@ -53,4 +65,4 @@ Doadores de alimentos excedentes, ONGs e cozinhas comunitárias não conseguem c
 - **Riscos e limitações:**
 
 ## Uso de IA
-O que geramos com IA, o que verificamos e o que alteramos.
+A IA foi utilizada apenas para consulta, esclarecimento de conceitos, compreensão das orientações da atividade e revisão da clareza, coerência e formatação do documento. As sugestões recebidas foram analisadas criticamente pelo grupo antes de serem aplicadas.
