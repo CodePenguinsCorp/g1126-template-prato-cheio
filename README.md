@@ -10,7 +10,7 @@ Conecta doadores de alimentos excedentes a ONGs, antes que a comida se perca.
 - André Schultz — @andreschultzz
 - José Henrique Brühmüller — @JHBruhmuller
 - Matheus Büsemayer — @pixelbananas
-- Lucas Monich Nunes - @luhrt
+- Lucas Mönich Nunes - @luhrt
 
 ## Como rodar
 
