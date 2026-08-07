@@ -25,9 +25,11 @@ Doadores de alimentos excedentes, ONGs e cozinhas comunitárias não conseguem c
 | Famílias que recebem a refeição | Receber alimento em tempo útil e em condições seguras. | Baixa | Elas não aparecem na lista-base da aula, mas sofrem diretamente a consequência final quando a doação atrasa, se perde ou chega inadequada. | Representar por meio das ONGs na iteração 1; não entrevistar antes de validar o piloto básico. |
 
 ## Objetivos de impacto
-1.
-2.
-3.
+| Objetivo | Métrica | Linha de base | Direção | Como obter a linha de base |
+|---|---|---|---|---|
+| Reduzir o tempo entre a publicação da doação e a retirada registrada. | Tempo mediano, em minutos, entre publicar e registrar retirada. | Hoje desconhecida. | Diminuir. | Medir desde o primeiro dia do piloto, registrando horário de publicação e horário de retirada em cada doação. |
+| Aumentar a proporção de doações publicadas que são efetivamente retiradas antes da validade. | Percentual de doações publicadas com retirada confirmada antes da validade. | Hoje desconhecida. | Aumentar. | Levantar nas duas primeiras semanas do piloto, comparando total publicado com total retirado dentro do prazo. |
+| Aumentar o número estimado de refeições viabilizadas por semana pelas doações coletadas. | Refeições estimadas por semana, calculadas pelas ONGs a partir de tipo e quantidade recebidos. | Hoje desconhecida. | Aumentar. | Pedir que cada ONG piloto registre a estimativa de aproveitamento ao confirmar cada retirada nas primeiras semanas. |
 
 ## Regras de negócio
 
