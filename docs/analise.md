@@ -32,6 +32,11 @@ Doadores de alimentos excedentes, ONGs e cozinhas comunitárias não conseguem c
 | Aumentar o número estimado de refeições viabilizadas por semana pelas doações coletadas. | Refeições estimadas por semana, calculadas pelas ONGs a partir de tipo e quantidade recebidos. | Hoje desconhecida. | Aumentar. | Pedir que cada ONG piloto registre a estimativa de aproveitamento ao confirmar cada retirada nas primeiras semanas. |
 
 ## Regras de negócio
+-Falta um dono claro para a regra "Doação aceita sai da fila pública" — quem assume a decisão final e a responsabilidade por conflitos não está definido.
+-A regra não menciona atomicidade/concorrência: aceitar simultâneo por duas ONGs precisa de mecanismo transacional (lock/compare-and-swap).
+"Publicação exige rastreabilidade mínima" omite formatos/valores válidos (unidades, tipo normalizado, validade em ISO), e validação server-side.
+-Não há definição de exceções (ex.: doador cancela, doação parcialmente retirada, ou validade menor que janela de reserva).
+-Regra de expiração em 2 horas não considera notificações, fuso horário, relógio do servidor nem extensão por aviso; precisa de owner operacional e métricas.
 
 ## Conflitos de prioridade
 | Campo | Conteúdo |
